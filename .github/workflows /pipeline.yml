@@ -32,7 +32,7 @@ jobs:
     needs: uat
     steps:
       - name: HML
-        run: echo hml
+        run: echo hml test
 
   prod: 
     name: prod
